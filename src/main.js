@@ -3,8 +3,10 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
-Vue.config.productionTip = false
+//加载全局样式
+import './assets/styles/global.scss'
 
+Vue.config.productionTip = false
 new Vue({
   router,
   store,
